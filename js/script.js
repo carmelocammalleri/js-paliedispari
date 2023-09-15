@@ -1,11 +1,9 @@
 const pali = document.getElementById('palindromo');
 const parola = prompt('scrivi una parola');
 
-let array = [];
-array.push(parola);
+let addList = [];
+addList.push(parola.split(""));
 
-function reverse (){
-  let elementoDiviso = 
-}
 
-console.log(reverse(parola));
+console.log(addList);
+
