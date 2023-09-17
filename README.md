@@ -15,8 +15,11 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 
-1. Generare un prompt che faccia scegliere un numero da 1 a 5 e generare anche un altro numero random
-2. Creare una funzione per il numero random da sommare all'elemento inserito nel prompt
-3. Sommare i due valori
-4. Creare una seconda funzione che valuti se la somma sia pari o dispari
-5. Stabilire tramite le condizioni chi ha vinto 
+1. Generare due prompt:
+a- che faccia scegliere un numero da 1 a 5 
+b- che faccia scegliere tra pari e dispari
+2. generare numero random per il pc
+3. Creare una funzione per il numero random da sommare all'elemento inserito nel prompt
+4. Sommare i due valori
+5. Creare una seconda funzione che valuti se la somma sia pari o dispari
+6. Stabilire tramite le condizioni se l'utente ha vinto 
