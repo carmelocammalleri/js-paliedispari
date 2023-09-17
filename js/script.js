@@ -15,7 +15,9 @@ function reverseWord (str){
     //3. conditions  
     if (str === joinRevStr){
       pali.innerHTML = `Complimenti, hai trovato una parola palindroma!`
-    } 
+    } else{
+      pali.innerHTML = `Ritenta, la tua parola NON è palindroma!`
+    }
 
 
 
