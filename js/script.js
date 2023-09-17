@@ -17,9 +17,9 @@ const oddEven = document.getElementById('paridispari')
 
     //3. conditions  
      if (str === joinRevStr){
-       pali.innerHTML = `Complimenti, ${word} è una parola palindroma!`
+       pali.innerHTML = `Complimenti, "${word}" è una parola palindroma!`
      } else{
-       pali.innerHTML = `Ritenta, ${word} NON è palindroma!`
+       pali.innerHTML = `Ritenta, "${word}" NON è palindroma!`
      }
    }
 
@@ -61,17 +61,17 @@ const oddEven = document.getElementById('paridispari')
     if(num % 2 === 0){
       console.log('è un numero pari')
       if(pariDisp === 'pari'){
-        oddEven.innerHTML = `Complimenti ${somma} è pari, hai vinto`
+        oddEven.innerHTML = `Complimenti "${somma}" è pari, hai vinto`
       } else {
-        oddEven.innerHTML = `Ritenta ${somma} è pari , non hai avuto abbastanza fortuna oggi`
+        oddEven.innerHTML = `Ritenta "${somma}" è pari , non hai avuto abbastanza fortuna oggi!`
       } 
 
     } else{
       console.log('è un numero dispari')
       if (pariDisp === 'dispari'){
-        oddEven.innerHTML = `Complimenti ${somma} è dipari, hai vinto`
+        oddEven.innerHTML = `Complimenti "${somma}" è dipari, hai vinto`
     } else {
-          oddEven.innerHTML = `Ritenta ${somma} è dipari, non hai avuto abbastanza fortuna oggi`
+          oddEven.innerHTML = `Ritenta "${somma}" è dipari, non hai avuto abbastanza fortuna oggi!`
         } 
     }
   }
