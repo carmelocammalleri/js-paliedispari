@@ -2,6 +2,7 @@
 
 //1. 
 const pali = document.getElementById('palindromo');
+const oddEven = document.getElementById('paridispari')
 
 //2.
 // const word = (prompt('scrivi una parola'));
@@ -46,8 +47,19 @@ const pali = document.getElementById('palindromo');
   function isEven(num){
     if(num % 2 === 0){
       console.log('è un numero pari')
+      if(pariDisp === 'pari'){
+        oddEven.innerHTML= `Complimenti, hai vinto`
+      } else {
+        oddEven.innerHTML= `Ritenta, hnon hai avuto abbastanza fortuna oggi`
+      } 
+      
     } else{
       console.log('è un numero dispari')
+      if (pariDisp === 'dispari'){
+        oddEven.innerHTML= `Complimenti, hai vinto`
+    } else {
+          oddEven.innerHTML= `Ritenta, hnon hai avuto abbastanza fortuna oggi`
+        } 
     }
   }
 
