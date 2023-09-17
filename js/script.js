@@ -12,6 +12,11 @@ function reverseWord (str){
   let joinRevStr = reverseStr.join("");
   console.log (joinRevStr)
 
+    //3. conditions  
+    if (str === joinRevStr){
+      pali.innerHTML = `Complimenti, hai trovato una parola palindroma!`
+    } 
+
 
 
 }
