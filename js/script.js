@@ -48,17 +48,17 @@ const oddEven = document.getElementById('paridispari')
     if(num % 2 === 0){
       console.log('è un numero pari')
       if(pariDisp === 'pari'){
-        oddEven.innerHTML= `Complimenti, hai vinto`
+        oddEven.innerHTML = `Complimenti, hai vinto`
       } else {
-        oddEven.innerHTML= `Ritenta, hnon hai avuto abbastanza fortuna oggi`
+        oddEven.innerHTML = `Ritenta, non hai avuto abbastanza fortuna oggi`
       } 
-      
+
     } else{
       console.log('è un numero dispari')
       if (pariDisp === 'dispari'){
-        oddEven.innerHTML= `Complimenti, hai vinto`
+        oddEven.innerHTML = `Complimenti, hai vinto`
     } else {
-          oddEven.innerHTML= `Ritenta, hnon hai avuto abbastanza fortuna oggi`
+          oddEven.innerHTML = `Ritenta, non hai avuto abbastanza fortuna oggi`
         } 
     }
   }
