@@ -5,29 +5,42 @@ const pali = document.getElementById('palindromo');
 const oddEven = document.getElementById('paridispari')
 
 //2.
-// const word = (prompt('scrivi una parola'));
+ const word = (prompt('scrivi una parola'));
 
-// reverseWord(word);
+ reverseWord(word);
 
-// function reverseWord (str){
-//   let splitStr = str.split("");
-//   let reverseStr = splitStr.reverse();
-//   let joinRevStr = reverseStr.join("");
-//   console.log (joinRevStr)
+ function reverseWord (str){
+   let splitStr = str.split("");
+   let reverseStr = splitStr.reverse();
+   let joinRevStr = reverseStr.join("");
+   console.log (joinRevStr)
 
-//     //3. conditions  
-//     if (str === joinRevStr){
-//       pali.innerHTML = `Complimenti, hai trovato una parola palindroma!`
-//     } else{
-//       pali.innerHTML = `Ritenta, la tua parola NON è palindroma!`
-//     }
-//   }
+    //3. conditions  
+     if (str === joinRevStr){
+       pali.innerHTML = `Complimenti, hai trovato una parola palindroma!`
+     } else{
+       pali.innerHTML = `Ritenta, la tua parola NON è palindroma!`
+     }
+   }
 
 
     //PARI O DISPARI
 
   //1.
   const pariDisp = prompt('Scegli "pari" o "dispari"')
+
+  // verifica
+  if (pariDisp=== 'pari'){
+
+  }else if (pariDisp === 'dispari'){
+
+  } else{
+    alert('scrivi "pari"" o "dispari"');
+    location.pariDisp();
+  }
+
+
+
   const number = parseFloat(prompt('Scegli un numero da 1 a 5'));
 
   const numRandom = randomizer (1, 5);
