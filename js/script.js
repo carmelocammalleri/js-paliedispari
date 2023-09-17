@@ -1,3 +1,5 @@
+//PALINDROMO
+
 //1. 
 const pali = document.getElementById('palindromo');
 
@@ -18,8 +20,13 @@ function reverseWord (str){
     } else{
       pali.innerHTML = `Ritenta, la tua parola NON è palindroma!`
     }
+  }
 
 
+    //PARI O DISPARI
 
-}
+  //1.
+  const number = prompt('Scegli un numero da uno a 5')
+
+
 
