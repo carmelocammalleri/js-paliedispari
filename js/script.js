@@ -28,11 +28,21 @@ const pali = document.getElementById('palindromo');
   //1.
   const number = parseFloat(prompt('Scegli un numero da 1 a 5'));
 
+  //2.
   randomizer (1, 5);
+
   function randomizer (min, max){
     const random = Math.floor(Math.random () * (max - min + 1) + min)
+  
+  //3.
     const somma = random + number;
     console.log(somma);
+  }
+
+  //4.
+  function oddEven (random, somma){
+    if (somma % 2 === 0){
+    }
   }
 
 
