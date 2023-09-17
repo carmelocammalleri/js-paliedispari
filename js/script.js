@@ -8,6 +8,11 @@ reverseWord(word);
 
 function reverseWord (str){
   let splitStr = str.split("");
+  let reverseStr = splitStr.reverse();
+  let joinRevStr = reverseStr.join("");
+  console.log (joinRevStr)
+
+
 
 }
 
