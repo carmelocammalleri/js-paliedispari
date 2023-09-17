@@ -18,8 +18,7 @@ Dichiariamo chi ha vinto.
 1. Generare due prompt:
 a- che faccia scegliere un numero da 1 a 5 
 b- che faccia scegliere tra pari e dispari
-2. generare numero random per il pc
-3. Creare una funzione per il numero random da sommare all'elemento inserito nel prompt
-4. Sommare i due valori
-5. Creare una seconda funzione che valuti se la somma sia pari o dispari
-6. Stabilire tramite le condizioni se l'utente ha vinto 
+2. Creare una funzione che generi un numero random da sommare all'elemento inserito nel prompt
+3. Sommare i due valori
+4. Creare una seconda funzione che valuti se la somma sia pari o dispari
+5. Stabilire tramite le condizioni se l'utente ha vinto 
