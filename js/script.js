@@ -65,7 +65,8 @@ const oddEven = document.getElementById('paridispari')
       } else {
         oddEven.innerHTML = `Ritenta "${somma}" è pari , non hai avuto abbastanza fortuna oggi!`
       } 
-
+      
+  //5.
     } else{
       console.log('è un numero dispari')
       if (pariDisp === 'dispari'){
