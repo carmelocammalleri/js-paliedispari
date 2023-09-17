@@ -26,11 +26,12 @@ const pali = document.getElementById('palindromo');
     //PARI O DISPARI
 
   //1.
+  const pariDisp = prompt('Scegli pari o dispari')
   const number = parseFloat(prompt('Scegli un numero da 1 a 5'));
-
-  //2.
+  
   randomizer (1, 5);
-
+  oddEven ()
+  //2.
   function randomizer (min, max){
     const random = Math.floor(Math.random () * (max - min + 1) + min)
   
@@ -40,7 +41,7 @@ const pali = document.getElementById('palindromo');
   }
 
   //4.
-  function oddEven (random, somma){
+  function oddEven (word){
     if (somma % 2 === 0){
     }
   }
