@@ -1,9 +1,13 @@
+//1. 
 const pali = document.getElementById('palindromo');
-const parola = prompt('scrivi una parola');
 
-let addList = [];
-addList.push(parola.split(""));
+//2.
+const word = (prompt('scrivi una parola'));
 
+reverseWord(word);
 
-console.log(addList);
+function reverseWord (str){
+  let splitStr = str.split("");
+
+}
 
